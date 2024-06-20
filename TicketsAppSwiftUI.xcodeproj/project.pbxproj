@@ -7,18 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D7A61582C23568700A26173 /* ToggleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A61572C23568700A26173 /* ToggleButtonView.swift */; };
+		1DB5250C2C242C28005074E5 /* TicketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5250B2C242C28005074E5 /* TicketListView.swift */; };
+		1DB5250F2C242EDB005074E5 /* TicketItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5250E2C242EDB005074E5 /* TicketItemView.swift */; };
+		1DB525112C242F0C005074E5 /* TicketsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525102C242F0C005074E5 /* TicketsResponse.swift */; };
+		1DB525132C242F8C005074E5 /* BackendPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525122C242F8C005074E5 /* BackendPrice.swift */; };
+		1DB525152C24328F005074E5 /* TicketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525142C24328F005074E5 /* TicketListViewModel.swift */; };
+		1DB525182C2432E5005074E5 /* TicketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525172C2432E5005074E5 /* TicketItem.swift */; };
+		1DB5251A2C243C5A005074E5 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525192C243C5A005074E5 /* TicketsView.swift */; };
+		1DB5251C2C24401E005074E5 /* TicketListInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5251B2C24401E005074E5 /* TicketListInitialData.swift */; };
+		1DB525202C2446F7005074E5 /* TicketListAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5251F2C2446F7005074E5 /* TicketListAppBar.swift */; };
+		1DB525222C2454C0005074E5 /* FilterButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525212C2454C0005074E5 /* FilterButtons.swift */; };
+		1DB525242C245A7B005074E5 /* TextFieldsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB525232C245A7B005074E5 /* TextFieldsWrapper.swift */; };
 		1DD980042C230370006EB977 /* TicketsAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980032C230370006EB977 /* TicketsAppSwiftUIApp.swift */; };
-		1DD980062C230370006EB977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980052C230370006EB977 /* ContentView.swift */; };
 		1DD980082C230372006EB977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD980072C230372006EB977 /* Assets.xcassets */; };
 		1DD9800B2C230372006EB977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD9800A2C230372006EB977 /* Preview Assets.xcassets */; };
+		1DD980172C230472006EB977 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1DD980162C230472006EB977 /* Alamofire */; };
+		1DD980292C23051F006EB977 /* OfferItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9801B2C23051F006EB977 /* OfferItem.swift */; };
+		1DD9802A2C23051F006EB977 /* OffersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9801C2C23051F006EB977 /* OffersResponse.swift */; };
+		1DD9802B2C23051F006EB977 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9801F2C23051F006EB977 /* ApiService.swift */; };
+		1DD9802C2C23051F006EB977 /* AppColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980212C23051F006EB977 /* AppColorConstants.swift */; };
+		1DD9802D2C23051F006EB977 /* AppFontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980222C23051F006EB977 /* AppFontConstants.swift */; };
+		1DD9802E2C23051F006EB977 /* AppImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980232C23051F006EB977 /* AppImageConstants.swift */; };
+		1DD9802F2C23051F006EB977 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980252C23051F006EB977 /* Color+Ext.swift */; };
+		1DD980302C23051F006EB977 /* NumberFormater+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980262C23051F006EB977 /* NumberFormater+Ext.swift */; };
+		1DD980322C230551006EB977 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980312C230551006EB977 /* MainTabView.swift */; };
+		1DD9803B2C230589006EB977 /* SubscriptionsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980332C230589006EB977 /* SubscriptionsTabView.swift */; };
+		1DD9803C2C230589006EB977 /* HotelsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980352C230589006EB977 /* HotelsTabView.swift */; };
+		1DD9803D2C230589006EB977 /* ShorterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980372C230589006EB977 /* ShorterTabView.swift */; };
+		1DD9803E2C230589006EB977 /* ProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980392C230589006EB977 /* ProfileTabView.swift */; };
+		1DD980422C2305AD006EB977 /* TicketInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980412C2305AD006EB977 /* TicketInitialView.swift */; };
+		1DD980442C23062B006EB977 /* TicketCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980432C23062B006EB977 /* TicketCoordinator.swift */; };
+		1DD980462C2306CE006EB977 /* TiketInitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980452C2306CE006EB977 /* TiketInitialViewModel.swift */; };
+		1DD980492C230816006EB977 /* TitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980482C230816006EB977 /* TitleTextView.swift */; };
+		1DD9804B2C23083A006EB977 /* OfferItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9804A2C23083A006EB977 /* OfferItemView.swift */; };
+		1DD9804D2C230849006EB977 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9804C2C230849006EB977 /* OffersView.swift */; };
+		1DD9804F2C23086D006EB977 /* OffersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9804E2C23086D006EB977 /* OffersViewModel.swift */; };
+		1DD980512C2308A3006EB977 /* TicketInitialViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980502C2308A3006EB977 /* TicketInitialViewTextField.swift */; };
+		1DD980532C2309D8006EB977 /* TicketTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980522C2309D8006EB977 /* TicketTabView.swift */; };
+		1DD980562C230A68006EB977 /* TicketModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980552C230A68006EB977 /* TicketModalView.swift */; };
+		1DD980592C230F77006EB977 /* GoToOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980582C230F77006EB977 /* GoToOptionsList.swift */; };
+		1DD9805B2C230F8D006EB977 /* HelpButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9805A2C230F8D006EB977 /* HelpButtonRow.swift */; };
+		1DD9805D2C230FA6006EB977 /* TicketModalViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9805C2C230FA6006EB977 /* TicketModalViewTextField.swift */; };
+		1DD9805F2C230FE0006EB977 /* TicketModalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9805E2C230FE0006EB977 /* TicketModalViewModel.swift */; };
+		1DD980622C23129E006EB977 /* TicketDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980612C23129E006EB977 /* TicketDetailsView.swift */; };
+		1DD980642C2315E8006EB977 /* TicketDetailsInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980632C2315E8006EB977 /* TicketDetailsInitialData.swift */; };
+		1DD980672C231AA0006EB977 /* TicketDetailsTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980662C231AA0006EB977 /* TicketDetailsTextFields.swift */; };
+		1DD980692C231ACC006EB977 /* TicketDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980682C231ACC006EB977 /* TicketDetailsViewModel.swift */; };
+		1DD9806B2C231F8E006EB977 /* AdditionalDetailsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9806A2C231F8E006EB977 /* AdditionalDetailsRow.swift */; };
+		1DD9806D2C23311B006EB977 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9806C2C23311B006EB977 /* DateUtils.swift */; };
+		1DD9806F2C2338C3006EB977 /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9806E2C2338C3006EB977 /* RecommendationsView.swift */; };
+		1DD980712C2338D1006EB977 /* RecomendationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980702C2338D1006EB977 /* RecomendationsViewModel.swift */; };
+		1DD980732C233971006EB977 /* RecommendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980722C233971006EB977 /* RecommendationsResponse.swift */; };
+		1DD980752C233BCE006EB977 /* RecommendationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980742C233BCE006EB977 /* RecommendationItem.swift */; };
+		1DD980772C233DD8006EB977 /* RecommendationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD980762C233DD8006EB977 /* RecommendationItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7A61572C23568700A26173 /* ToggleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonView.swift; sourceTree = "<group>"; };
+		1DB5250B2C242C28005074E5 /* TicketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListView.swift; sourceTree = "<group>"; };
+		1DB5250E2C242EDB005074E5 /* TicketItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketItemView.swift; sourceTree = "<group>"; };
+		1DB525102C242F0C005074E5 /* TicketsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsResponse.swift; sourceTree = "<group>"; };
+		1DB525122C242F8C005074E5 /* BackendPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendPrice.swift; sourceTree = "<group>"; };
+		1DB525142C24328F005074E5 /* TicketListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListViewModel.swift; sourceTree = "<group>"; };
+		1DB525172C2432E5005074E5 /* TicketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketItem.swift; sourceTree = "<group>"; };
+		1DB525192C243C5A005074E5 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		1DB5251B2C24401E005074E5 /* TicketListInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListInitialData.swift; sourceTree = "<group>"; };
+		1DB5251F2C2446F7005074E5 /* TicketListAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListAppBar.swift; sourceTree = "<group>"; };
+		1DB525212C2454C0005074E5 /* FilterButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtons.swift; sourceTree = "<group>"; };
+		1DB525232C245A7B005074E5 /* TextFieldsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsWrapper.swift; sourceTree = "<group>"; };
 		1DD980002C230370006EB977 /* TicketsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketsAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD980032C230370006EB977 /* TicketsAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		1DD980052C230370006EB977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DD980072C230372006EB977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD9800A2C230372006EB977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DD9801B2C23051F006EB977 /* OfferItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferItem.swift; sourceTree = "<group>"; };
+		1DD9801C2C23051F006EB977 /* OffersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersResponse.swift; sourceTree = "<group>"; };
+		1DD9801F2C23051F006EB977 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		1DD980212C23051F006EB977 /* AppColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColorConstants.swift; sourceTree = "<group>"; };
+		1DD980222C23051F006EB977 /* AppFontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFontConstants.swift; sourceTree = "<group>"; };
+		1DD980232C23051F006EB977 /* AppImageConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppImageConstants.swift; sourceTree = "<group>"; };
+		1DD980252C23051F006EB977 /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		1DD980262C23051F006EB977 /* NumberFormater+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberFormater+Ext.swift"; sourceTree = "<group>"; };
+		1DD980312C230551006EB977 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1DD980332C230589006EB977 /* SubscriptionsTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionsTabView.swift; sourceTree = "<group>"; };
+		1DD980352C230589006EB977 /* HotelsTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsTabView.swift; sourceTree = "<group>"; };
+		1DD980372C230589006EB977 /* ShorterTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShorterTabView.swift; sourceTree = "<group>"; };
+		1DD980392C230589006EB977 /* ProfileTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTabView.swift; sourceTree = "<group>"; };
+		1DD980412C2305AD006EB977 /* TicketInitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInitialView.swift; sourceTree = "<group>"; };
+		1DD980432C23062B006EB977 /* TicketCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCoordinator.swift; sourceTree = "<group>"; };
+		1DD980452C2306CE006EB977 /* TiketInitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiketInitialViewModel.swift; sourceTree = "<group>"; };
+		1DD980482C230816006EB977 /* TitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextView.swift; sourceTree = "<group>"; };
+		1DD9804A2C23083A006EB977 /* OfferItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferItemView.swift; sourceTree = "<group>"; };
+		1DD9804C2C230849006EB977 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		1DD9804E2C23086D006EB977 /* OffersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewModel.swift; sourceTree = "<group>"; };
+		1DD980502C2308A3006EB977 /* TicketInitialViewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInitialViewTextField.swift; sourceTree = "<group>"; };
+		1DD980522C2309D8006EB977 /* TicketTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTabView.swift; sourceTree = "<group>"; };
+		1DD980552C230A68006EB977 /* TicketModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModalView.swift; sourceTree = "<group>"; };
+		1DD980582C230F77006EB977 /* GoToOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToOptionsList.swift; sourceTree = "<group>"; };
+		1DD9805A2C230F8D006EB977 /* HelpButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpButtonRow.swift; sourceTree = "<group>"; };
+		1DD9805C2C230FA6006EB977 /* TicketModalViewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModalViewTextField.swift; sourceTree = "<group>"; };
+		1DD9805E2C230FE0006EB977 /* TicketModalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModalViewModel.swift; sourceTree = "<group>"; };
+		1DD980612C23129E006EB977 /* TicketDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsView.swift; sourceTree = "<group>"; };
+		1DD980632C2315E8006EB977 /* TicketDetailsInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsInitialData.swift; sourceTree = "<group>"; };
+		1DD980662C231AA0006EB977 /* TicketDetailsTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsTextFields.swift; sourceTree = "<group>"; };
+		1DD980682C231ACC006EB977 /* TicketDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsViewModel.swift; sourceTree = "<group>"; };
+		1DD9806A2C231F8E006EB977 /* AdditionalDetailsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalDetailsRow.swift; sourceTree = "<group>"; };
+		1DD9806C2C23311B006EB977 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		1DD9806E2C2338C3006EB977 /* RecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+		1DD980702C2338D1006EB977 /* RecomendationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationsViewModel.swift; sourceTree = "<group>"; };
+		1DD980722C233971006EB977 /* RecommendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsResponse.swift; sourceTree = "<group>"; };
+		1DD980742C233BCE006EB977 /* RecommendationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationItem.swift; sourceTree = "<group>"; };
+		1DD980762C233DD8006EB977 /* RecommendationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +125,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD980172C230472006EB977 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB5250A2C242C13005074E5 /* TicketList */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5250D2C242ECD005074E5 /* Subviews */,
+				1DB5250B2C242C28005074E5 /* TicketListView.swift */,
+			);
+			path = TicketList;
+			sourceTree = "<group>";
+		};
+		1DB5250D2C242ECD005074E5 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5250E2C242EDB005074E5 /* TicketItemView.swift */,
+				1DB525192C243C5A005074E5 /* TicketsView.swift */,
+				1DB5251F2C2446F7005074E5 /* TicketListAppBar.swift */,
+				1DB525212C2454C0005074E5 /* FilterButtons.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		1DB525162C2432C3005074E5 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1DD9801C2C23051F006EB977 /* OffersResponse.swift */,
+				1DD980722C233971006EB977 /* RecommendationsResponse.swift */,
+				1DB525102C242F0C005074E5 /* TicketsResponse.swift */,
+				1DB525122C242F8C005074E5 /* BackendPrice.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		1DD97FF72C230370006EB977 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +182,13 @@
 		1DD980022C230370006EB977 /* TicketsAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1DD980282C23051F006EB977 /* Utilities */,
+				1DD980202C23051F006EB977 /* Services */,
+				1DD9801E2C23051F006EB977 /* Models */,
+				1DD980142C23043B006EB977 /* ViewModels */,
+				1DD980122C230425006EB977 /* Views */,
+				1DD980112C23041D006EB977 /* Coordinators */,
 				1DD980032C230370006EB977 /* TicketsAppSwiftUIApp.swift */,
-				1DD980052C230370006EB977 /* ContentView.swift */,
 				1DD980072C230372006EB977 /* Assets.xcassets */,
 				1DD980092C230372006EB977 /* Preview Content */,
 			);
@@ -65,6 +201,212 @@
 				1DD9800A2C230372006EB977 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DD980112C23041D006EB977 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980432C23062B006EB977 /* TicketCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1DD980122C230425006EB977 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DD9803F2C230591006EB977 /* Tickets */,
+				1DD980362C230589006EB977 /* Hotels */,
+				1DD9803A2C230589006EB977 /* Profile */,
+				1DD980382C230589006EB977 /* Shorter */,
+				1DD980342C230589006EB977 /* Subscriptions */,
+				1DD980312C230551006EB977 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DD980142C23043B006EB977 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980452C2306CE006EB977 /* TiketInitialViewModel.swift */,
+				1DD9804E2C23086D006EB977 /* OffersViewModel.swift */,
+				1DD9805E2C230FE0006EB977 /* TicketModalViewModel.swift */,
+				1DD980682C231ACC006EB977 /* TicketDetailsViewModel.swift */,
+				1DD980702C2338D1006EB977 /* RecomendationsViewModel.swift */,
+				1DB525142C24328F005074E5 /* TicketListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1DD9801D2C23051F006EB977 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				1DB525162C2432C3005074E5 /* Response */,
+				1DD9801B2C23051F006EB977 /* OfferItem.swift */,
+				1DD980632C2315E8006EB977 /* TicketDetailsInitialData.swift */,
+				1DD980742C233BCE006EB977 /* RecommendationItem.swift */,
+				1DB525172C2432E5005074E5 /* TicketItem.swift */,
+				1DB5251B2C24401E005074E5 /* TicketListInitialData.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		1DD9801E2C23051F006EB977 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DD9801D2C23051F006EB977 /* Tickets */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DD980202C23051F006EB977 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DD9801F2C23051F006EB977 /* ApiService.swift */,
+			);
+			name = Services;
+			path = ../../TicketsSwiftUI/TicketsSwiftUI/Services;
+			sourceTree = "<group>";
+		};
+		1DD980242C23051F006EB977 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980212C23051F006EB977 /* AppColorConstants.swift */,
+				1DD980222C23051F006EB977 /* AppFontConstants.swift */,
+				1DD980232C23051F006EB977 /* AppImageConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1DD980272C23051F006EB977 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980252C23051F006EB977 /* Color+Ext.swift */,
+				1DD980262C23051F006EB977 /* NumberFormater+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DD980282C23051F006EB977 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980242C23051F006EB977 /* Constants */,
+				1DD980272C23051F006EB977 /* Extensions */,
+				1DD9806C2C23311B006EB977 /* DateUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1DD980342C230589006EB977 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980332C230589006EB977 /* SubscriptionsTabView.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		1DD980362C230589006EB977 /* Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980352C230589006EB977 /* HotelsTabView.swift */,
+			);
+			path = Hotels;
+			sourceTree = "<group>";
+		};
+		1DD980382C230589006EB977 /* Shorter */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980372C230589006EB977 /* ShorterTabView.swift */,
+			);
+			path = Shorter;
+			sourceTree = "<group>";
+		};
+		1DD9803A2C230589006EB977 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980392C230589006EB977 /* ProfileTabView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1DD9803F2C230591006EB977 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980782C234535006EB977 /* SharedViews */,
+				1DB5250A2C242C13005074E5 /* TicketList */,
+				1DD980602C231291006EB977 /* TicketDetails */,
+				1DD980542C230A5E006EB977 /* TicketModal */,
+				1DD980402C2305A0006EB977 /* TicketInitial */,
+				1DD980522C2309D8006EB977 /* TicketTabView.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		1DD980402C2305A0006EB977 /* TicketInitial */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980472C2307D2006EB977 /* Subviews */,
+				1DD980412C2305AD006EB977 /* TicketInitialView.swift */,
+			);
+			path = TicketInitial;
+			sourceTree = "<group>";
+		};
+		1DD980472C2307D2006EB977 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1DD9804A2C23083A006EB977 /* OfferItemView.swift */,
+				1DD9804C2C230849006EB977 /* OffersView.swift */,
+				1DD980502C2308A3006EB977 /* TicketInitialViewTextField.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		1DD980542C230A5E006EB977 /* TicketModal */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980572C230F5D006EB977 /* Subviews */,
+				1DD980552C230A68006EB977 /* TicketModalView.swift */,
+			);
+			path = TicketModal;
+			sourceTree = "<group>";
+		};
+		1DD980572C230F5D006EB977 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980582C230F77006EB977 /* GoToOptionsList.swift */,
+				1DD9805A2C230F8D006EB977 /* HelpButtonRow.swift */,
+				1DD9805C2C230FA6006EB977 /* TicketModalViewTextField.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		1DD980602C231291006EB977 /* TicketDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980652C231A8D006EB977 /* Subviews */,
+				1DD980612C23129E006EB977 /* TicketDetailsView.swift */,
+			);
+			path = TicketDetails;
+			sourceTree = "<group>";
+		};
+		1DD980652C231A8D006EB977 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980662C231AA0006EB977 /* TicketDetailsTextFields.swift */,
+				1DD9806A2C231F8E006EB977 /* AdditionalDetailsRow.swift */,
+				1DD9806E2C2338C3006EB977 /* RecommendationsView.swift */,
+				1DD980762C233DD8006EB977 /* RecommendationItemView.swift */,
+				1D7A61572C23568700A26173 /* ToggleButtonView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		1DD980782C234535006EB977 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				1DD980482C230816006EB977 /* TitleTextView.swift */,
+				1DB525232C245A7B005074E5 /* TextFieldsWrapper.swift */,
+			);
+			path = SharedViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +425,9 @@
 			dependencies = (
 			);
 			name = TicketsAppSwiftUI;
+			packageProductDependencies = (
+				1DD980162C230472006EB977 /* Alamofire */,
+			);
 			productName = TicketsAppSwiftUI;
 			productReference = 1DD980002C230370006EB977 /* TicketsAppSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +456,9 @@
 				Base,
 			);
 			mainGroup = 1DD97FF72C230370006EB977;
+			packageReferences = (
+				1DD980152C230472006EB977 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1DD980012C230370006EB977 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +485,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD980062C230370006EB977 /* ContentView.swift in Sources */,
+				1DB525152C24328F005074E5 /* TicketListViewModel.swift in Sources */,
+				1DD9803E2C230589006EB977 /* ProfileTabView.swift in Sources */,
+				1DD980672C231AA0006EB977 /* TicketDetailsTextFields.swift in Sources */,
+				1DD980422C2305AD006EB977 /* TicketInitialView.swift in Sources */,
+				1DD980512C2308A3006EB977 /* TicketInitialViewTextField.swift in Sources */,
+				1DD980462C2306CE006EB977 /* TiketInitialViewModel.swift in Sources */,
+				1DD980752C233BCE006EB977 /* RecommendationItem.swift in Sources */,
+				1DD980532C2309D8006EB977 /* TicketTabView.swift in Sources */,
+				1DD9802A2C23051F006EB977 /* OffersResponse.swift in Sources */,
+				1DD980712C2338D1006EB977 /* RecomendationsViewModel.swift in Sources */,
+				1DB5251C2C24401E005074E5 /* TicketListInitialData.swift in Sources */,
+				1DD9803D2C230589006EB977 /* ShorterTabView.swift in Sources */,
+				1DD980772C233DD8006EB977 /* RecommendationItemView.swift in Sources */,
+				1D7A61582C23568700A26173 /* ToggleButtonView.swift in Sources */,
+				1DD9805B2C230F8D006EB977 /* HelpButtonRow.swift in Sources */,
+				1DD9806B2C231F8E006EB977 /* AdditionalDetailsRow.swift in Sources */,
+				1DD9802C2C23051F006EB977 /* AppColorConstants.swift in Sources */,
+				1DB5251A2C243C5A005074E5 /* TicketsView.swift in Sources */,
+				1DD9802B2C23051F006EB977 /* ApiService.swift in Sources */,
+				1DD9804B2C23083A006EB977 /* OfferItemView.swift in Sources */,
+				1DD9806D2C23311B006EB977 /* DateUtils.swift in Sources */,
+				1DD980732C233971006EB977 /* RecommendationsResponse.swift in Sources */,
+				1DD9803C2C230589006EB977 /* HotelsTabView.swift in Sources */,
+				1DD980692C231ACC006EB977 /* TicketDetailsViewModel.swift in Sources */,
+				1DD980492C230816006EB977 /* TitleTextView.swift in Sources */,
+				1DB525202C2446F7005074E5 /* TicketListAppBar.swift in Sources */,
+				1DD980642C2315E8006EB977 /* TicketDetailsInitialData.swift in Sources */,
+				1DB525182C2432E5005074E5 /* TicketItem.swift in Sources */,
+				1DB5250F2C242EDB005074E5 /* TicketItemView.swift in Sources */,
+				1DD9804F2C23086D006EB977 /* OffersViewModel.swift in Sources */,
+				1DD9805F2C230FE0006EB977 /* TicketModalViewModel.swift in Sources */,
+				1DB525112C242F0C005074E5 /* TicketsResponse.swift in Sources */,
+				1DD980562C230A68006EB977 /* TicketModalView.swift in Sources */,
+				1DD9802E2C23051F006EB977 /* AppImageConstants.swift in Sources */,
+				1DD9803B2C230589006EB977 /* SubscriptionsTabView.swift in Sources */,
+				1DD980302C23051F006EB977 /* NumberFormater+Ext.swift in Sources */,
+				1DD980442C23062B006EB977 /* TicketCoordinator.swift in Sources */,
 				1DD980042C230370006EB977 /* TicketsAppSwiftUIApp.swift in Sources */,
+				1DD9804D2C230849006EB977 /* OffersView.swift in Sources */,
+				1DD9802D2C23051F006EB977 /* AppFontConstants.swift in Sources */,
+				1DB5250C2C242C28005074E5 /* TicketListView.swift in Sources */,
+				1DB525222C2454C0005074E5 /* FilterButtons.swift in Sources */,
+				1DB525132C242F8C005074E5 /* BackendPrice.swift in Sources */,
+				1DD980292C23051F006EB977 /* OfferItem.swift in Sources */,
+				1DD980592C230F77006EB977 /* GoToOptionsList.swift in Sources */,
+				1DD980622C23129E006EB977 /* TicketDetailsView.swift in Sources */,
+				1DB525242C245A7B005074E5 /* TextFieldsWrapper.swift in Sources */,
+				1DD9806F2C2338C3006EB977 /* RecommendationsView.swift in Sources */,
+				1DD9805D2C230FA6006EB977 /* TicketModalViewTextField.swift in Sources */,
+				1DD9802F2C23051F006EB977 /* Color+Ext.swift in Sources */,
+				1DD980322C230551006EB977 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +741,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DD980152C230472006EB977 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DD980162C230472006EB977 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DD980152C230472006EB977 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DD97FF82C230370006EB977 /* Project object */;
 }

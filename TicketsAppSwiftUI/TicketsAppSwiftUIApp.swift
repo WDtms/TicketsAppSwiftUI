@@ -11,7 +11,7 @@ import SwiftUI
 struct TicketsAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
